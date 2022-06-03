@@ -105,6 +105,8 @@ footer h3 {
 
 @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
     footer {
+        display: grid;
+        grid-template-columns: 1fr;
         height: auto;
     }
 
