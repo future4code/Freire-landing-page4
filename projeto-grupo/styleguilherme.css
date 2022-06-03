@@ -84,10 +84,15 @@ footer h3 {
     margin-top: 15px;
 }
 
+.lista {
+    display: flex;
+    flex-direction: column;
+}
+
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
     footer {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
         height: auto;
         margin-top: 60px;
         padding-bottom: 20px;
@@ -101,10 +106,15 @@ footer h3 {
         padding-bottom: 5vh;
     }
 
+    .lista {
+        height: 20vh ;
+    }
 }
 
 @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
     footer {
+        display: grid;
+        grid-template-columns: 1fr;
         height: auto;
     }
 
