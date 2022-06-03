@@ -8,6 +8,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 nav a {
     text-decoration: none;
 }
@@ -28,6 +29,7 @@ ul {
     overflow: hidden;
     transition: all .5s;
 }
+
 nav {
     background-color: #3B4F66;
     padding: 0 20px;
@@ -41,6 +43,7 @@ p {
     color: white; 
 }
 nav,ul {
+
     display: flex;
     flex-direction: row;
 }
@@ -55,6 +58,7 @@ h1 {
     padding: 10px;
     color: white;
 }
+
 button {
     background-color: transparent;
     border: none;
