@@ -8,10 +8,11 @@
   align-items: stretch;
   justify-content: space-around;
   width: 100vw;
+   height: 15vh;
 }
 
 #seção1 img {
-    display: inline;
+  display: inline;
   width: 90%;
   height: 90%;
  text-align: center;
@@ -27,10 +28,10 @@
 
 #seção2 {
   display: grid;
-  grid-template-columns: 30vw 30vw 35vw;
-  column-gap: 1%;
-  /* background-color: #3B4F66;
-  color: #A6D973; */
+  grid-template-columns: 30vw 30vw 30vw;
+  column-gap: 2%;
+  height: 40vh;
+  padding: 2%;
 }
 
 #seção2 p {
@@ -46,13 +47,14 @@
 }
 #seção2 li {
   list-style-type: none;
-  /* background-color:#2B6F75; */
+  padding: 0;
   padding-top: 3%;
   padding-right: 3%;
 }
 
 #seção2 ul {
-    padding-right: 3%;
+  display: block;
+  padding: 1%;
 }
 
 #fonte-promocoes {
