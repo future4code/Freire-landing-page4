@@ -6,6 +6,8 @@ Tivemos algums problemas com os pulls e pushs, mas nada que não pudessemos cont
 
 Utilizamos alguns recursos para facilitar a navegação no site e trazer uma melhor experiencia para o usuário.
 
+As principais tecnologias usadas no projeto foram: Html, CSS e algumas funções de Java Script. 
+
 site: https://complete-committee.surge.sh
 
 A baixo segue alguns prints do projeto.
