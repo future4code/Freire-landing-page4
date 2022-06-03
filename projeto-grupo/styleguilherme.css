@@ -82,6 +82,8 @@ footer h3 {
     list-style-type: none;
     text-align: left;
     margin-top: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
