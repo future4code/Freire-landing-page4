@@ -1,0 +1,115 @@
+
+/* #3B4F66 azul logo
+#A6D973 verde logo
+#2B6F75 azul medio
+#54A6DA azul claro */
+
+/*css do nav e botaõ menu */
+html {
+    scroll-behavior: smooth;
+}
+
+nav a {
+    text-decoration: none;
+}
+body {
+    margin: 0;
+  
+}
+nav img{
+    width: 20%;
+}
+.logo{
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+nav {
+    background-color: #3B4F66;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: calc(100% - 1px);
+    top: 0;
+}
+p {
+    color: white; 
+}
+nav,ul {
+
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 10px 20px 10px;
+    margin-right: 20px ; 
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+}
+
+a:hover,
+h1:hover,
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 700px) {
+
+    nav,
+    ul {
+        flex-direction: column;
+    }
+
+    ul {
+        text-align: center;
+        margin: 0;
+        height: 0;
+    }
+
+    nav {
+        padding: 0;
+        align-items: flex-start;
+    }
+
+    h1 {
+        margin: 10px;
+    }
+
+    button {
+        display: flex;
+    }
+
+    li,
+    ul {
+        width: 100%;
+    }
+
+    ul.responsivo {
+        height: 260px;
+    }
+}

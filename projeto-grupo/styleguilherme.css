@@ -1,0 +1,130 @@
+/* #3B4F66 azul logo
+#A6D973 verde logo
+#2B6F75 azul medio
+#54A6DA azul claro */
+/*guilherme  stylo seção 3 e footer */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#secao-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    padding-top: 10vh;
+}
+
+#secao-3 h3 {
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+.question {
+    border-left: 3px solid #2B6F75;
+    border-right: 3px solid #2B6F75;
+    border-top: 1px solid #2B6F75;
+    border-bottom: 1px solid #2B6F75;
+    width: 50%;
+    padding: 10px 5px;
+    background-color: transparent;
+    color: black;
+    text-align: left;
+}
+
+.question input,
+.question .answer {
+    display: none;
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 5px;
+}
+
+.question label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%
+}
+
+.question input:checked~.answer {
+    display: block
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-top: 5vh;
+    height: 40vh;
+    background-color: #3B4F66;
+    color: white;
+    padding-top: 20px;
+}
+
+footer h3 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.redes-sociais {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+}
+
+.lista li {
+    font-size: clamp(1em, 1em + 1vw 1.5em);
+    list-style-type: none;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        margin-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    #secao-3 {
+        padding-bottom: 30vh;
+    }
+
+    #secao-3 h3{
+        padding-bottom: 5vh;
+    }
+
+    .lista {
+        height: 20vh ;
+    }
+}
+
+@media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .lista li {
+        text-align: center;
+    }
+
+    #secao-3 {
+        padding-bottom: 18vh;
+    }
+}
+    
+    
